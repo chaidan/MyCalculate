@@ -16,9 +16,6 @@ class ViewController: UIViewController {
     var strNumber1 = ""
     var strNumber2: String = ""
     
-    
-    
-    
     @IBOutlet weak var num1TextField: UITextField!
     
     @IBOutlet weak var num2TextField: UITextField!
@@ -29,6 +26,10 @@ class ViewController: UIViewController {
             // show on Log
             print("strNumber1 is \(strNumber1)")
             print("strNumber2 is \(strNumber2)")
+            intNumber1 = Int(strNumber1)!
+            intNumber2 = Int(strNumber2)!
+            print("intNumber1 is \(intNumber1)")
+            print("intNumber2 is \(intNumber2)")
     } // answerButton
     
     
