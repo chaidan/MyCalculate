@@ -70,6 +70,7 @@
                         <color key="tintColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="answerString" destination="Pba-Yg-Lu9" id="5Ul-Nr-YDG"/>
                         <outlet property="num1TextField" destination="IQL-3o-Dt9" id="ONM-9T-kMA"/>
                         <outlet property="num2TextField" destination="WTG-iG-UF0" id="Jql-F7-gxh"/>
                     </connections>

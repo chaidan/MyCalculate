@@ -10,12 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 // Declare variable area.(Hold Control botton with right drag)
-// Implicit
+// Implicit number
     var intNumber1 = 0
     var intNumber2: Int = 0
+    var intNumber3 = 0
+// Implicit String
     var strNumber1 = ""
     var strNumber2: String = ""
-    
+// Implicit view
     @IBOutlet weak var num1TextField: UITextField!
     
     @IBOutlet weak var num2TextField: UITextField!
@@ -30,8 +32,14 @@ class ViewController: UIViewController {
             intNumber2 = Int(strNumber2)!
             print("intNumber1 is \(intNumber1)")
             print("intNumber2 is \(intNumber2)")
+        // Summation operation
+            intNumber3 = intNumber1 + intNumber2
+            print("intNumber3 is \(intNumber3)")
+            answerString.text = String(intNumber3)
+            
     } // answerButton
     
+    @IBOutlet weak var answerString: UILabel!
     
     
     override func viewDidLoad() {
